@@ -1,0 +1,20 @@
+{
+  "kpiPanels": [
+    { "id": "claimsNotified", "label": "Claims Notified", "endpoint": "/api/claims/kpi/notified" },
+    { "id": "claimsPending", "label": "Claims Pending", "endpoint": "/api/claims/kpi/pending" },
+    { "id": "claimsClosed", "label": "Claims Closed", "endpoint": "/api/claims/kpi/closed" },
+    { "id": "claimHandlers", "label": "Claim Handlers", "endpoint": "/api/claims/kpi/handlers" },
+    { "id": "avgClaimsPending", "label": "Avg # Claims Pending", "endpoint": "/api/claims/kpi/avg-pending" }
+  ],
+  "filters": [
+    { "id": "state", "label": "State", "type": "dropdown", "endpoint": "/api/claims/filters/states" },
+    { "id": "month", "label": "Month", "type": "dropdown", "endpoint": "/api/claims/filters/months" },
+    { "id": "year", "label": "Year", "type": "dropdown", "endpoint": "/api/claims/filters/years" }
+  ],
+  "mainPanels": [
+    { "id": "claimStatusByMonth", "label": "Claim Status by Month", "type": "bar", "endpoint": "/api/claims/status-by-month" },
+    { "id": "claimYOYByBusinessLine", "label": "Claim YOY by Business Line", "type": "bar", "endpoint": "/api/claims/yoy-business-line" },
+    { "id": "claimSettlementRatio", "label": "Claim Settlement Ratio", "type": "donut", "endpoint": "/api/claims/settlement-ratio" },
+    { "id": "riskDivision", "label": "Risk Division", "type": "donut", "endpoint": "/api/claims/risk-division" }
+  ]
+}
