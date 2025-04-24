@@ -14,7 +14,7 @@ This repo contains some sample code built with AI agent mode using copilot.
 
 ## Getting Started
 using the prompt in initialprompt.txt with vscode and github copilot the initial projects and files were created using agent mode of copilot in additionl to leveraging the following screen shot
-<img src="./insurance-claim-analysis.jpg" width="350" title="insurance dashboard ex" alt="insurance dashboard image">
+<img src="insurance-claim-analysis.jpg" width="350" title="insurance dashboard ex" alt="insurance dashboard image">
 
 ### Backend (DashboardApi)
 1. Update `appsettings.json` with your SQL Server connection string and OAuth settings. Or for local development use dotnet user-secrets
